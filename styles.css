@@ -1,6 +1,14 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
 .carousel {
     max-width: 600px;
     position: relative;
+    margin: 0 auto;
+    
 }
 
 .carousel .carousel-item,
@@ -15,8 +23,10 @@
 
 .carousel .carousel-item img {
     width: 100%;
-    max-width: 600px;
+    
     height: auto;
+    height: 100vh;
+    border: 5px solid black;
 }
 
 .carousel .carousel-actions {
